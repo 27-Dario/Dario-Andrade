@@ -129,7 +129,7 @@ a{
 }
 
 .imagencss{
-    background-image: url('../img/thorfin.jpg');
+    background-image: url('img/thorfin.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
