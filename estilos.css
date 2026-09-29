@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; /* Centra los aside y la sección en la pantalla */
+    align-items: center;     /* Alinea las imágenes verticalmente con el contenido */
+    padding: 20px;
+}
+
+aside.decoracion img {
+    width: 350px;            /* Ajusta el tamaño de imágenes */
+    height: 600px;
+    object-fit: cover;
+}
+
+.cajita{
+    border: solid 3px black ;
+    margin: 15px 0;
+    width: 300px;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: blue;
+    color:#f2f7a0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
