@@ -1,0 +1,152 @@
+body{
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+main aside{
+    width: 20%;
+    margin: 5px;
+    border: solid 2px black;
+    background-color:#15D8B3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+main aside nav ol{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.renglon{
+    display: flex;
+    flex-direction: row;
+    height: 33.3%;
+}
+
+.columna{
+    display: flex;
+    flex-direction:column ;
+    width: 80%;
+    margin: 5px;
+    border: solid 2px black;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer aside{
+    width:20%;
+    margin: 5px;
+    border: solid 2px black;
+    background-color:#15D8B3;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer article{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    margin: 5px;
+    border: solid 2px black;
+    align-items: center;
+    background-color:#15D8B3;
+}
+
+
+
+footer article nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.articulodos{
+    width: 33.3%;
+    margin: 10px;
+    border: solid 2px black;
+    background-color:#15D8B3;
+}
+
+.articulouno{
+    width: 25%;
+    margin: 10px;
+    border:  solid 2px black;
+    background-color:#15D8B3;
+}
+
+.partetarj{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    width: 30%;
+}
+
+.unodotre{
+    height: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#uno{
+    background-color: #15D8B3;
+    background-image: linear-gradient( to bottom,#15D8B3,#49A4BB,#2F39A9);
+}
+
+#dos{
+    background-color: #15D8B3;
+    background-image: linear-gradient(to top,#15D8B3,#49A4BB,#2F39A9);
+}
+
+#tres{
+    background-color: #15D8B3;
+    background-image: linear-gradient(to right,#15D8B3,#49A4BB,#2F39A9);
+}
+
+#cuatro{
+    background-color: #15D8B3;
+    background-image: linear-gradient(to left,#15D8B3,#49A4BB,#2F39A9);
+}
+
+.imagencss{
+    background-image: url('../img/thorfin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.material-symbols-outlined{
+    color:black;
+    font-weight: bolder;
+
+}
+
+.iconos2{
+    margin: 15px;
+}
+
+h1,p{
+    font-family: "Gorditas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
