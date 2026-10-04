@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <nav>
+                <ul><h1>Menu</h1>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="formulario1.html">Disco</a></li>
+                    <li><a href="formulario2.html">Cantante</a></li>
+                    <li><a href="formulario3.html">Cancion</a></li>
+                    <li><a href="formulario4.html">Playlist</a></li>
+                </ul>
+            </nav>
+        </aside>
+            <section id="derecha">
+            <article>
+                <form name="formDisco" action="#" method="post" enctype="multipart/form-data">
+
+                 <article class="columnas">
+                    <fieldset class="cancion" >
+                        <article  id="datosCancion">
+                            <article>
+                                <label>Cancion: </label>
+                                <input type="text" id="nombreCancion">
+                            </article>
+                            
+                            <article>
+                                <label>Duracion: </label>
+                                <input type="text" id="duracion">
+                            </article>
+                            
+                            <article>
+                                <label>Compositor:</label>
+                                <input type="text" id="compositor">
+                            </article>
+                            
+                            <article>
+                                <label>Cantante: </label>
+                                <select id="cantante" > 
+                                    <option id="1">Selecciona cantante</option>
+                                    <option id="2">Duki</option>
+                                    <option id="3">Ramma</option>
+                                    <option id="4">Paulo Londra</option>
+                                </select><br>
+                            </article>
+                        </article>
+                        
+                    </fieldset>
+                    
+                    </article>
+                    <button id="boton" onclick="cancion();">Guardar</button>
+                </form>
+            </article>
+
+            <header>
+                <h1>Cancion</h1>
+            </header>
+        </section>
+        <script src="formularios.js"></script>
+        </main>
+
+        <footer>
+            <p>Grupo: LDMS401 </p>
+            <p>Alumno: Dario Alejandro Andrade Bue </p>
+        </footer>
+</body>
+</html>

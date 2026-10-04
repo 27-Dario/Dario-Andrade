@@ -1,0 +1,137 @@
+*{box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+}
+
+main aside {
+    width: 25%;
+    border-right: solid 3px black;
+}
+
+footer{
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:solid 3px black ;
+    font-size: 20px;
+}
+
+main aside nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+main aside nav ul li{
+    font-size: 20px;
+}
+
+main aside nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main aside nav ul li :hover{
+    background-color: black;
+    color: aquamarine;
+    border-radius: 5px;
+}
+
+#derecha{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    text-align: center;
+    border-top: dashed 3px black;
+    padding: 15px;
+}
+
+#datosDisco{
+display: flex;
+flex-direction: column;
+gap: 15px;
+font-size: 20px;
+}
+
+#datosDisco input{
+    width:300px ;
+    font-size: 15px ;
+}
+
+fieldset{
+    border: none;
+}
+
+form[name="formDisco"]{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 380px;
+    width: 90%;
+    gap: 30px;
+}
+
+#boton {
+    padding: 8px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+    align-self: center;
+}
+
+#datosCantante{
+display: flex;
+flex-direction: column;
+gap: 15px;
+font-size: 20px;
+}
+
+#datosCancion{
+display: flex;
+flex-direction: column;
+gap: 15px;
+font-size: 20px;
+}
+
+#datosCancion input{
+    width:300px ;
+    font-size: 15px ;
+}
+
+#datosPlaylist{
+display: flex;
+flex-direction: column;
+gap: 15px;
+font-size: 20px;
+}
+#datosPlaylist input{
+    width:300px ;
+    font-size: 15px ;
+}
