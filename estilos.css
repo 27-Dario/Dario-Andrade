@@ -13,7 +13,7 @@ main {
 }
 
 aside.decoracion img {
-    width: 350px;            /* Ajusta el tamaño de imágenes */
+    width: 350px;         /* Ajusta el tamaño de imágenes */
     height: 600px;
     object-fit: cover;
 }
@@ -40,5 +40,6 @@ a:hover{
 .contenido{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
