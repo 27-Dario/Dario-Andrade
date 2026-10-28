@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Ejercicio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-info ">
+     <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+        <article class="container">
+            <a class="navbar-brand" href="index.html">Pagina principal Arreglos</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_1.html">1_Ejercicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_2.html">2_Ejercicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_3.html">3_Ejercicio</a>
+                </li>
+            </ul>
+        </article>
+    </nav>
+
+    <h4 class="p-3 mt-5 pt-3">Ejercicio de Sueldos</h4>
+    <article id="sueldos">
+        <article class="p-3 ">
+            <table class="table table-bordered w-auto">
+                <thead>
+                <tr>
+                    <th>Rol</th>
+                    <th>Nivel/pagoHora</th>
+                    <th>Nivel/pagoHora</th>
+                    <th>Nivel/pagoHora</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td>Newbie</td>
+                    <td>Junior</td>
+                    <td>Senior</td>
+                </tr>
+                <tr>
+                    <td>Diseñador</td>
+                    <td>$120</td>
+                    <td>$180</td>
+                    <td>$280</td>
+                </tr>
+                <tr>
+                    <td>Programador</td>
+                    <td>$120</td>
+                    <td>$280</td>
+                    <td>$340</td>
+                </tr>
+                <tr>
+                    <td>Lider</td>
+                    <td>$240</td>
+                    <td>$520</td>
+                    <td>$890</td>
+                </tr>
+                </tbody>
+            </table>
+        </article>
+        <article class="p-3" style="max-width: 350px;">
+            <form action="">
+                <article >
+                    <label for="puesto" class="form-label ">Puesto:</label>
+                    <select class="form-select  mb-1 " id="puesto" onchange="calcularTotal()">
+                        <option value="">Pon el Puesto que tiene/rol</option>
+                        <option value="0">Diseñador</option>
+                        <option value="1">Programador</option>
+                        <option value="2">Lider</option>
+                    </select>
+                    
+                </article>
+                <article class="mb-1">
+
+                    <label for="nivel" class="form-label">Nivel:</label>
+                    <select class="form-select " id="nivel" onchange="calcularTotal()">
+                        <option value="">Pon el nivel que es:</option>
+                        <option value="0">Newbie</option>
+                        <option value="1">Junior</option>
+                        <option value="2">Senior</option>
+                    </select>
+
+                </article>
+                <article class=" mb-1">
+                    <label class="form-label">Horas:
+                    <input type="text" class="form-control " id="horas" placeholder="Captura Horas"  onchange="calcularTotal()">
+                    </label>
+                </article>
+                <article class=" mb-1">
+                    <label class="form-label">Total:
+                    <input type="text" class="form-control " id="total" placeholder="">
+                    </label>
+                </article>
+            </form>
+        </article>
+    </article>
+    <script src="arrreglo2.js"></script>
+</body>
+</html>

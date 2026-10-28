@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer Ejercicio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-info ">
+     <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+        <article class="container">
+            <a class="navbar-brand" href="index.html">Pagina principal Arreglos</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_1.html">1_Ejercicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_2.html">2_Ejercicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ejercicio_3.html">3_Ejercicio</a>
+                </li>
+            </ul>
+        </article>
+    </nav>
+
+    <h4 class="p-3 mt-5 pt-3">Ejercicio de Agenda</h4>
+    <article class="p-3 ">
+            <table class="table table-bordered w-auto">
+                <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Hora</th>
+                    <th>Evento</th>
+                    <th>Descripcion</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td id="hora_0"></td>
+                    <td id="evento_0"></td>
+                    <td id="desc_0"></td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td id="hora_1"></td>
+                    <td id="evento_1"></td>
+                    <td id="desc_1"></td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td id="hora_2"></td>
+                    <td id="evento_2"></td>
+                    <td id="desc_2"></td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td id="hora_3"></td>
+                    <td id="evento_3"></td>
+                    <td id="desc_3"></td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td id="hora_4"></td>
+                    <td id="evento_4"></td>
+                    <td id="desc_4"></td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td id="hora_5"></td>
+                    <td id="evento_5"></td>
+                    <td id="desc_5"></td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td id="hora_6"></td>
+                    <td id="evento_6"></td>
+                    <td id="desc_6"></td>
+                </tr>
+                </tbody>
+            </table>
+    </article>
+
+    <article id="agenda" class="p-3" style="max-width: 350px;">
+        <form action="">
+            <article class="d-flex">
+                <label for="puesto" class="form-label ">Dia: </label>
+                    <select class="form-select  mb-1 " id="dia" >
+                        <option value="">Pon el dia que requieres</option>
+                        <option value="0">Lunes</option>
+                        <option value="1">Martes</option>
+                        <option value="2">Miercoles</option>
+                        <option value="3">Jueve</option>
+                        <option value="4">Viernes</option>
+                        <option value="5">Sabado</option>
+                        <option value="6">Domingo</option>
+                    </select>
+            </article>
+
+            <article class=" mb-1 ">
+                    <label class="form-label d-flex">Hora:
+                    <input type="text" class="form-control " id="hora" placeholder="ej: 5:00 pm">
+                    </label>
+            </article>
+
+            <article class=" mb-1 ">
+                    <label class="form-label d-flex">Evento:
+                    <input type="text" class="form-control " id="evento" placeholder="Captua el evento"  >
+                    </label>
+            </article>
+
+            <article class="mb-1">
+                <label for="descripcion">Descripcion:</label>
+                <textarea class="form-control" rows="5" id="desc" name="descripcion"></textarea>
+            </article>
+            <button type="button" class="btn btn-primary" onclick="guardarAgenda()">Guardar</button>
+        </form>
+    </article>
+    <script src="arreglo3.js"></script>
+</body>
+</html>
